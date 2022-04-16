@@ -8,6 +8,7 @@ import About from "./components/Pages/About/About";
 import Home from "./components/Pages/Home/Home/Home";
 import Login from "./components/Pages/Login/Login";
 import Footer from "./components/Shared/Footer/Footer";
+import Signup from "./components/Pages/Signup/Signup";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/signup" element={<Signup></Signup>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
