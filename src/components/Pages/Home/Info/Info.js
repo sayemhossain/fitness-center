@@ -1,6 +1,8 @@
 import React from "react";
 import infoImg from "../../../../Images/info/infoImg.jpg";
 import "./Info.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Info = () => {
   return (
@@ -29,7 +31,7 @@ const Info = () => {
               sagittis nisl non quam varius, iaculis scelerisque urna bibendum.
             </p>
             <button className="btn common-bg-color px-5 py-2 rounded-pill  text-white fw-bold text-uppercase mt-2">
-              join up
+              join up <FontAwesomeIcon icon={faCircleArrowRight} />
             </button>
           </div>
         </div>

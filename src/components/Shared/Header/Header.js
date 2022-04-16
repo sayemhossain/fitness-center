@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "../../../Images/logo/logo.png";
+import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
   return (
@@ -24,24 +25,28 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/">
+              <CustomLink
+                className="nav-link fw-bold"
+                aria-current="page"
+                to="/"
+              >
                 Home
-              </Link>
+              </CustomLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/blogs">
+              <CustomLink className="nav-link fw-bold" to="/blogs">
                 Blogs
-              </Link>
+              </CustomLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <CustomLink className="nav-link fw-bold " to="/about">
                 About
-              </Link>
+              </CustomLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/login">
+              <CustomLink className="nav-link fw-bold" to="/login">
                 Login
-              </Link>
+              </CustomLink>
             </li>
           </ul>
         </div>
