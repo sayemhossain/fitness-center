@@ -5,15 +5,21 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import Blogs from "./components/Pages/Blogs/Blogs";
 import About from "./components/Pages/About/About";
+import Home from "./components/Pages/Home/Home/Home";
+import Login from "./components/Pages/Login/Login";
+import Footer from "./components/Shared/Footer/Footer";
 
 function App() {
   return (
     <div>
       <Header></Header>
       <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

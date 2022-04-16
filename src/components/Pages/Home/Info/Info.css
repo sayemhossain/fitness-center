@@ -1,0 +1,10 @@
+.info-text {
+  display: flex;
+  flex-direction: column;
+}
+.common-bg-color {
+  background-color: #ff7722;
+}
+.common-color {
+  color: #ff7722;
+}
