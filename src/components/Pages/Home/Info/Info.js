@@ -11,10 +11,10 @@ const Info = () => {
         <div className="col-lg-7 info-text">
           <div>
             <h4 className="common-color">Welcome To</h4>
-            <h1 className="fw-bold mb-3">FITNESS PROGRAMME</h1>
+            <h1 className=" mb-3">FITNESS PROGRAMME</h1>
           </div>
           <div>
-            <p className="fw-bold">
+            <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
               molestias possimus nisi ex in et doloremque delectus sed ut
               soluta!
@@ -30,7 +30,7 @@ const Info = () => {
               suscipit id mauris. Nunc et porta quam, et porttitor lorem. In
               sagittis nisl non quam varius, iaculis scelerisque urna bibendum.
             </p>
-            <button className="btn common-bg-color px-5 py-2 rounded-pill  text-white fw-bold text-uppercase mt-2">
+            <button className="info-btn px-5 py-2 rounded-pill  text-white fw-bold text-uppercase mt-2 mb-4">
               join up <FontAwesomeIcon icon={faCircleArrowRight} />
             </button>
           </div>

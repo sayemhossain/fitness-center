@@ -2,8 +2,14 @@
   display: flex;
   flex-direction: column;
 }
-.common-bg-color {
+.info-btn {
   background-color: #ff7722;
+  border-style: none;
+  transition: all 0.5s;
+}
+.info-btn:hover {
+  background-color: black;
+  color: white;
 }
 .common-color {
   color: #ff7722;
