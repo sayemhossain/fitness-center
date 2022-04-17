@@ -1,3 +1,10 @@
 .footer-color {
   background-color: #233235;
 }
+.footer-img img {
+  width: 200px;
+}
+.footer-btn {
+  background-color: #ff7722;
+  border-style: none;
+}
