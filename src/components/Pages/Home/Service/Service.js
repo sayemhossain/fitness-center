@@ -20,7 +20,7 @@ const Service = (props) => {
               : description}
           </p>
           <Link
-            to="/"
+            to="/checkout"
             className="card-btn rounded-pill px-4 py-2 text-white text-uppercase"
           >
             <FontAwesomeIcon className="me-1" icon={faCartShopping} /> purchase

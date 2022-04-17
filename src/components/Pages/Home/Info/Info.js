@@ -7,7 +7,7 @@ import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Info = () => {
   return (
     <div className="container mt-5">
-      <div className="row  ">
+      <div className="row px-3">
         <div className="col-lg-7 info-text">
           <div>
             <h4 className="common-color">Welcome To</h4>
