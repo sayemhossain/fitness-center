@@ -97,7 +97,10 @@ const Signup = () => {
               </div>
               <p className="text-danger mt-2">{error}</p>
               <div className="col-12 text-center mt-4">
-                <button type="submit" className="btn btn-danger">
+                <button
+                  type="submit"
+                  className="signup-btn rounded-pill px-4 text-white fw-bold py-2"
+                >
                   Sign Up
                 </button>
               </div>

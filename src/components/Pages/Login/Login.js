@@ -68,7 +68,10 @@ const Login = () => {
               <p className="mt-2 text-danger">{error?.message}</p>
               {loading && <p className="text-success">Loading...</p>}
               <div className="col-12 text-center mt-4">
-                <button type="submit" className="btn btn-danger">
+                <button
+                  type="submit"
+                  className="login-btn rounded-pill px-4 text-white fw-bold py-2"
+                >
                   Login
                 </button>
               </div>

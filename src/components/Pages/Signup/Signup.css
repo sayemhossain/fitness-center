@@ -6,6 +6,14 @@
   box-shadow: inset 8px 8px 15px #f1f2f3,
     inset -8px -8px 15px rgb(253, 250, 250);
 }
+.signup-btn {
+  background-color: #ff7722;
+  border-style: none;
+  transition: all 0.5s;
+}
+.signup-btn:hover {
+  background-color: black;
+}
 .login-link {
   text-decoration: none;
   color: rgb(180, 117, 0);
