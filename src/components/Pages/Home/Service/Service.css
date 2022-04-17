@@ -1,0 +1,18 @@
+.card {
+  transition: all 0.5s;
+}
+.card:hover {
+  box-shadow: 10px 10px 10px gainsboro;
+}
+.card-btn {
+  text-decoration: none;
+  background-color: #ff7722;
+  border-style: none;
+  transition: all 0.5s;
+}
+.card-btn:hover {
+  background-color: black;
+}
+.card-price {
+  color: #ff7722;
+}
