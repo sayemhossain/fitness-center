@@ -63,7 +63,7 @@ const Signup = () => {
           <div className="col-lg-4 col-md-4"></div>
           <div className="col-12 col-md-4 p-4 sign-up px-5">
             <form onSubmit={handleCreateUser}>
-              <h3 className="text-center">Sign Up</h3>
+              <h3 className="text-center">Sig Up</h3>
               <div className="col-12">
                 <label for="inputEmail4" className="form-label">
                   Email
