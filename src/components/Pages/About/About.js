@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-lg-7 about-text mt-4">
-          <h4 className="text-uppercase">Shayem Hossain</h4>
+        <div className="col-lg-7 about-text mt-4 px-4">
+          <h5 className="text-uppercase">Shayem Hossain</h5>
           <h1>
             I'm a Creative{" "}
             <span style={{ color: "#ff7722" }}>Web Developer</span>
