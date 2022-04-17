@@ -3,7 +3,10 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Signup.css";
 import googleImg from "../../../Images/google.svg";
 import auth from "../../../firebase.init";
-import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
+import {
+  useCreateUserWithEmailAndPassword,
+  useSignInWithGoogle,
+} from "react-firebase-hooks/auth";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -11,6 +14,8 @@ const Signup = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
+
+  const [signInWithGoogle, user] = useSignInWithGoogle(auth);
 
   // this is for create user email and pass
   const [createUserWithEmailAndPassword, user] =
@@ -115,7 +120,10 @@ const Signup = () => {
               <hr className="w-50" /> <p className="px-2">or</p>
               <hr className="w-50" />
             </div>
-            <div className="text-center w-100">
+            <div
+              onClick={() => signInWithGoogle()}
+              className="text-center w-100"
+            >
               <button className="btn">
                 <img src={googleImg} alt="" /> Continue with Google
               </button>
