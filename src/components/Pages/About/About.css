@@ -1,0 +1,9 @@
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-btn {
+  background-color: #ff7722;
+  border-style: none;
+}
