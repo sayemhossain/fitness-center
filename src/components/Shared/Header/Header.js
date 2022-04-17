@@ -13,7 +13,7 @@ const Header = () => {
     signOut(auth);
   };
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark header-color">
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img className="logo" src={logo} alt="" />
@@ -52,15 +52,15 @@ const Header = () => {
             </li>
             <li className="nav-item">
               {user ? (
-                <button
-                  className="text-white btn btn-danger  py-1 px-3 ms-2 fw-bold rounded-pill "
+                <p
+                  className="header-signup-btn py-1 px-3 ms-2 fw-bold rounded-pill "
                   onClick={handleSignout}
                 >
                   LogOut
-                </button>
+                </p>
               ) : (
                 <Link
-                  className="nav-link text-white py-1 px-3 btn btn-success fw-bold ms-2 rounded-pill"
+                  className="nav-link text-white header-login-btn py-1 px-3  fw-bold ms-2 rounded-pill"
                   to="/login"
                 >
                   Login

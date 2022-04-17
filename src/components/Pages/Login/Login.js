@@ -5,6 +5,7 @@ import googleImg from "../../../Images/google.svg";
 import { useState } from "react";
 import auth from "../../../firebase.init";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -87,11 +88,7 @@ const Login = () => {
               <hr className="w-50" /> <p className="px-2">or</p>
               <hr className="w-50" />
             </div>
-            <div className="text-center w-100">
-              <button className="btn">
-                <img src={googleImg} alt="" /> Continue with Google
-              </button>
-            </div>
+            <div>{<SocialMedia></SocialMedia>}</div>
           </div>
           <div className="col-md-4"></div>
         </div>

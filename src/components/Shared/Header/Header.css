@@ -1,7 +1,15 @@
-/* .header-color {
+.header-color {
   background-color: #3c565b;
 }
-#FF7722 */
+/* #FF7722 */
 .logo {
-  width: 150px;
+  width: 120px;
+}
+.header-signup-btn {
+  background-color: #b7c57a;
+  border-style: none;
+}
+.header-login-btn {
+  background-color: #5ea11e;
+  border-style: none;
 }
