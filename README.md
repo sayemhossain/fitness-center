@@ -1,4 +1,4 @@
-# Fitness Center
+# Project name: Fitness Center
 
 This project is based on react.js [Create React App](https://github.com/facebook/create-react-app).
 
