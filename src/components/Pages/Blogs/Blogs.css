@@ -1,0 +1,10 @@
+.blogs {
+  min-height: 90vh;
+}
+.blogs-container {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.feist-blog {
+  border-right: 4px solid rebeccapurple;
+}

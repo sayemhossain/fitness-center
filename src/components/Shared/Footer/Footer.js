@@ -56,7 +56,7 @@ const Footer = () => {
                 type="text"
                 placeholder="Enter Email"
               />
-              <button className="footer-btn py-2 w-100 rounded-pill mt-3 fw-bold">
+              <button className="footer-btn py-2 w-100 text-white rounded-pill mt-3 fw-bold">
                 Submit
               </button>
             </div>
