@@ -16,8 +16,11 @@ const Banner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>-Henry David Thoreau</h3>
+            <p>
+              Success usually comes to those who are too busy to be looking for
+              it.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -28,8 +31,11 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>–Erin Gray</h3>
+            <p>
+              Once you are exercising regularly, the hardest thing is to stop
+              it.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -40,10 +46,8 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>-Babe Ruth</h3>
+            <p>You just can’t beat the person who never gives up.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

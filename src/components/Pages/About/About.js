@@ -13,10 +13,14 @@ const About = () => {
             <span style={{ color: "#ff7722" }}>Web Developer</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            animi fugiat aut numquam, dolore laborum voluptatem, earum corrupti
-            obcaecati aperiam nihil aliquid, accusantium quod deserunt vitae
-            suscipit voluptatibus totam culpa.{" "}
+            I am Sayem Hossain and I want to be a master of Web developing. Now
+            frontend is my main target and React is my crash. After completing
+            frontend part I will move on backend also.
+          </p>
+          <p>
+            Now I am learning developing from Programming hero and after
+            completing this is course I will try to get a job as a frontend web
+            Developer in any IT company.
           </p>
           <div>
             <button className="about-btn px-3 text-white py-2 rounded-pill">

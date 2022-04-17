@@ -15,20 +15,17 @@ const Info = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              molestias possimus nisi ex in et doloremque delectus sed ut
-              soluta!
+              A gym is a building or room that's meant for playing indoor sports
+              or exercising. You might go to the gym to pump iron, or you might
+              go to the gym to see who else is pumping iron.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
-              erat a diam rutrum laoreet. Cras vitae fringilla turpis. In
-              laoreet nunc vel lacinia luctus. Nullam suscipit volutpat magna,
-              vel tempus mauris auctor non. Duis nec orci egestas, hendrerit
-              purus non, egestas diam. Donec viverra arcu quam, vel aliquam
-              libero sagittis ut. Aenean non mauris vel nisl pulvinar malesuada
-              ut non dui. Praesent ante nisi, varius vitae tincidunt rutrum,
-              suscipit id mauris. Nunc et porta quam, et porttitor lorem. In
-              sagittis nisl non quam varius, iaculis scelerisque urna bibendum.
+              The word gym is a shortened form of gymnasium, originally a Latin
+              word meaning "school for gymnastics," from the Greek gymnasion,
+              "public place where exercises are practiced." The preferred way to
+              dress at a gym these days is in shorts or sweatpants, but back in
+              Ancient Greece, men commonly exercised naked — hence the root
+              gymnazein, "to train naked."
             </p>
             <button className="info-btn px-5 py-2 rounded-pill  text-white fw-bold text-uppercase mt-2 mb-4">
               join up <FontAwesomeIcon icon={faCircleArrowRight} />

@@ -10,11 +10,11 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-4 footer-img">
               <img className="mb-4" src={logo} alt="" />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                obcaecati quisquam id sit omnis explicabo voluptate aut placeat,
-                soluta, nisi ea magni facere, itaque incidunt modi? Magni, et
-                voluptatum dolorem.
+              <p className="pe-2">
+                I will beat her. I will train harder. I will eat cleaner. I know
+                her strengths. I’ve lost to her before but not this time. She is
+                going down. I have the advantage because I know her well. She is
+                the old me.
               </p>
             </div>
             <div className="col-lg-4 my-3 mt-md-0">
