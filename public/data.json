@@ -1,0 +1,44 @@
+[
+    {
+      "id": "625c14b1cbb8b122cd639047",
+      "price": "$117.69",
+      "img": "https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "name": "Weight Lifting Class",
+      "description": "Weight Training exercises help you strengthen and tone-up your muscles, keep you in shape and improve your posture.This section has ample state of the art improved single stations gyms coupled with host of additional free weights and the most needed guidance to help you out."
+    },
+    {
+      "id": "625c14b1b5b87c9133fbb2d8",
+      "price": "$126.09",
+      "img": "https://images.pexels.com/photos/6550826/pexels-photo-6550826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Food or drink products",
+      "description": "With the help and guidance of our Expert Team of Trainers and Nutritionists, we provide complimentary Diet Counseling sessions to all our customers in order to help them achieve their desired results.  Eating Healthy is the best way to stay Fit and Young."
+    },
+    {
+      "id": "625c14b1418d4f465e4e0c70",
+      "price": "$157.88",
+      "img": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Personal training",
+      "description": "We have Professionally Certified and Qualified Personal Trainers who can pay Special Attention to an individuals’ need and expectation"
+    },
+    {
+      "id": "625c14b1573f7bc07ff9eff4",
+      "price": "$63.66",
+      "img": "https://images.pexels.com/photos/5383814/pexels-photo-5383814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Lockers",
+      "description": "Lockers are available to keep your personal belonging’s safe while you unwind and workout to re-energize yourself. As needed, clean and fresh towels are also provided."
+    },
+    {
+      "id": "625c14b1e7efb074f9555051",
+      "price": "$247.32",
+      "img": "https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Childcare services",
+      "description": "Another important service that you need to offer in your gym is childcare. Including childcare in your gym will create a sense of caring and loyalty."
+    },
+    {
+      "id": "625c14b1083e2d18793f5c32",
+      "price": "$93.84",
+      "img": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Swimming pool",
+      "description": "After the gym, If you need to refresh your bodies by swimming and id you  like swimming, therefore,you can come only for swimming and pay for it."
+    }
+  ]

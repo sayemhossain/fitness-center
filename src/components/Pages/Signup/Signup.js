@@ -96,7 +96,7 @@ const Signup = () => {
                 />
               </div>
               <p className="text-danger mt-2">{error}</p>
-              <div className="col-12 col-md-6 mx-auto mt-4">
+              <div className="col-12 text-center mt-4">
                 <button type="submit" className="btn btn-danger">
                   Sign Up
                 </button>
