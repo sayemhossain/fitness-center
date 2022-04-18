@@ -6,7 +6,13 @@ import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Info = () => {
   return (
-    <div className="container mt-5">
+    <div className="container">
+      <div className="pb-5">
+        <h2 className="text-center fw-bold text-uppercase ">
+          Our <span style={{ color: "#ff7722" }}>Story</span>
+        </h2>
+        <hr className="w-50 mx-auto" />
+      </div>
       <div className="row px-3">
         <div className="col-lg-7 info-text">
           <div>

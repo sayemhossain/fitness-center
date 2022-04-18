@@ -4,7 +4,10 @@ import "./Login.css";
 import googleImg from "../../../Images/google.svg";
 import { useState } from "react";
 import auth from "../../../firebase.init";
-import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
+import {
+  useSendPasswordResetEmail,
+  useSignInWithEmailAndPassword,
+} from "react-firebase-hooks/auth";
 import SocialMedia from "../SocialMedia/SocialMedia";
 
 const Login = () => {
@@ -12,6 +15,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
+  const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -32,6 +36,10 @@ const Login = () => {
     signInWithEmailAndPassword(email, password);
   };
 
+  const resetPassword = async () => {
+    await sendPasswordResetEmail(email);
+    alert("Sent email");
+  };
   if (user) {
     navigate(from, { replace: true });
   }
@@ -69,6 +77,16 @@ const Login = () => {
               </div>
               <p className="mt-2 text-danger">{error?.message}</p>
               {loading && <p className="text-success">Loading...</p>}
+              {error ? (
+                <p>
+                  Forget Password?{" "}
+                  <span onClick={resetPassword} className="text-danger">
+                    Reset Now
+                  </span>{" "}
+                </p>
+              ) : (
+                ""
+              )}
               <div className="col-12 text-center mt-4">
                 <button
                   type="submit"

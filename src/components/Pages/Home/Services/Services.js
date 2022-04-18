@@ -14,7 +14,7 @@ const Services = () => {
           </h2>
           <hr className="w-50 mx-auto " />
         </div>
-        <div className="service-container container my-5">
+        <div className="service-container container py-3">
           {services.map((service) => (
             <Service key={service.id} service={service}></Service>
           ))}
